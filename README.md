@@ -16,3 +16,6 @@ program, what does it mean?
 + This means that both the publisher and subscriber programs are connected to the same AMQP (Advanced Message Queuing Protocol) message broker instance. 
 + Both the publisher and subscriber programs are communicating with the AMQP server running on the local machine (localhost) using the default username ("guest") and password ("guest"), and the default port (5672).
 + It establishes a unified communication pathway for data exchange between the publisher and subscriber, enabling seamless interaction within the messaging infrastructure.
+
+## Running RabbitMQ
+![alt text](image.png)
