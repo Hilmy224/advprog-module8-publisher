@@ -19,3 +19,7 @@ program, what does it mean?
 
 ## Running RabbitMQ
 ![alt text](image.png)
+
+## Making it work
++ After the publisher is run, the data hardcoded in the publisher will be sent to the message queue. Then, the subscriber will receive this data from the message queue and display the messages as shown in the attachment below.
+![alt text](image-1.png)
