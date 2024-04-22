@@ -23,3 +23,5 @@ program, what does it mean?
 ## Making it work
 + After the publisher is run, the data hardcoded in the publisher will be sent to the message queue. Then, the subscriber will receive this data from the message queue and display the messages as shown in the attachment below.
 ![alt text](image-1.png)
++ When cargo run is repeatedly performed on the publisher, there will be an increase in the message rate on RabbitMQ, which is the message queue. This can be seen in a spike indicating an increase in message rates at certain times in the chart shows in the attachement below:
+![alt text](image-2.png)
