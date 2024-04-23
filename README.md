@@ -26,8 +26,4 @@ program, what does it mean?
 + When cargo run is repeatedly performed on the publisher, there will be an increase in the message rate on RabbitMQ, which is the message queue. This can be seen in a spike indicating an increase in message rates at certain times in the chart shows in the attachement below:
 ![alt text](image-2.png)
 
-## Slow Subscriber
-![alt text](image-3.png)
-+ After running `cargo run` on publisher around 10 times we can see that theres a spike in queued messages, ranging around 50-70 when i ran 10 times consecutively, this indicates a bottleneck in message processing.
-+ This bottleneck occurs when the subscriber experiences delays in handling incoming messages (caused by changing the subscriber code so that `subscriber delay 1 second for every process`), leading to an accumulation of messages in the queue. 
-+ Regarding the total number of queues, the number may vary depending on the system configuration and workload in this case workload previously mentioned.
+
